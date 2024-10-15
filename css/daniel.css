@@ -1,0 +1,723 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    display: flex;
+}
+.navbar{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: rgba(226, 233, 236, 0.411);
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(236, 230, 230);
+}
+.navbar>div{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.navbar>ul{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+.attribute{
+    height: 55%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+}
+.attribute:hover{
+    border-bottom: 3px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-radius: 20%;
+}
+.type{
+    width: 30%;
+    height: 30%;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: center;
+    align-content: center;
+    margin-right: 40px;
+}
+.type:hover{
+    height:30%;
+    width: 33%;
+}
+.term{
+    font-weight: bolder;
+    font-family: Georgia;
+    height: 40px;
+    width: 45px;
+}
+.first{
+    color: blue;
+    background-color: white;
+    width: 30%;
+}
+.second{
+    color: red; 
+    background-color: white;
+    width: 30%;
+}
+.third{
+    color: white;
+    background-color: black;
+    width: 30%;
+}
+.first:hover{
+    border: 1.2px solid lightgray;
+    background-color: rgb(228, 225, 219);
+}
+.second:hover{
+    border: 1.2px solid lightgray;
+    background-color: rgb(228, 225, 219);
+}
+.third:hover{
+    border: 1.2px solid red;
+    background-color: black;
+}
+.hero{
+    flex-wrap: wrap;
+    background-image: linear-gradient(whitesmoke, rgb(237, 237, 237));
+    width: 100vw;
+}
+.hero>div{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+}
+.design1{
+    height: 75vh;
+    width: 100%;
+    top: 70px;
+}
+.design1>div{
+    height: 70%;
+    flex-direction: row;
+}
+.img1{
+    width: 65%;
+}   
+.main{
+    width:90%;
+    padding-left: 10%;
+}
+.main>div{
+    margin-top: 15px;
+}
+.form{
+    color: rgb(26, 48, 42);
+    font-size: 25px;
+    font-family: calibri;
+    line-height: 40px;
+    transform: scale(170%,160%);
+    left: 34%;
+   }
+.no2{
+    background-color: grey;
+    border-radius: 20px;
+    height: 2px;
+    width: 60px;
+    left: 20px;
+}
+.niv{
+    color: rgb(103, 98, 98);
+}
+   .table{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Bahnschrift Condensed;
+    color: rgb(103, 98, 98);
+    top: 20px;
+    padding-left: 3%;
+   }
+   .one,.two{
+    padding-left: 11%;
+}
+.level{
+    color: rgb(103, 98, 98);
+    font-family: Bahnschrift Condensed;
+    top: 5px;
+    font-weight: lighter;
+}
+.three,.four{
+    padding-left: 7%;
+}
+.img2{
+    flex-direction: column;
+    height: 80%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+}
+.gallery{
+    height: 105%;
+    width: 80%;
+    border: 10px solid white;
+    box-shadow: 10px black;
+    border-radius: 120px;
+    background-image:url(../img/images\ \(2\).jfif);
+    background-size: 100% 100%;
+}
+.plan{
+    height: 25%;
+    width: 25%;
+    box-shadow: 0.2px 0.2px 2px 6px rgb(111, 140, 111);
+    border-radius: 50%;
+    right: 80%;
+    top: 40%;
+    background-size: 100% 100%;
+    background-color:  rgb(26, 48, 42);
+}
+section.hero>div.design2{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px 5px;
+    height: 30vh;
+    width: 100%;
+}
+.performance{
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(107, 110, 113);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex; 
+}
+.focus{ 
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 115%;
+    width: 15%;
+    border-radius: 15px;
+}
+.focus:hover{
+    background-color: rgb(26, 48, 42);;
+    border-radius: 15px;
+    color: white;
+    height: 115%;
+    width: 15%;
+    transition: 400ms ;
+}   
+.about{
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(237, 237, 237), whitesmoke);
+    height: 130vh;
+    width: 100vw;
+}
+.about>div{
+    flex-direction: column;
+}
+.output1{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;  
+}
+.field{
+    height: 70%;
+    width: 33.2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.field:hover{
+    transform: scale(2px);
+    height: 78%;
+    width: 34%;
+    border-radius: 10px;
+}
+.gee{
+    background-color: rgb(26, 48, 42);
+    border-radius: 10px;
+    height: 10%;
+    width: 35%;
+    right: 27%;
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+}
+.gee:hover{
+    color: wheat;
+}
+.aa{
+    background-image: url(../img/images\ \(3\).jfif);
+    background-size: 100% 100%;
+}
+.bb{
+    background-color: rgb(107, 110, 113);
+    color: white;
+    padding: 15px;
+}
+.boy{
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.top{
+    width: 90%;
+    align-items: center;
+    justify-items: center;
+}
+.cc{
+    background-color: white;
+    font-family: calibri;
+    padding: 15px;
+}
+.fur>h1{
+    color:  rgb(26, 68, 26);
+    font-family: calibri;
+    font-weight: bolder;
+}
+.fur{
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    bottom: 30px;
+}
+.fur>div{
+    height: 7%;
+    width: 7%;
+    background-color: rgb(26, 68, 26);
+    border-radius: 30%;
+    text-align: center;
+    color: white;
+}
+section.about>div.output2{
+    height: 15%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 12%;
+}
+.output2{
+    bottom: 50px;
+}
+.test{
+    color:  rgb(26, 68, 26);
+    font-family: calibri;
+    bottom: 6px;
+}
+.output2>span{
+    color: rgb(107, 110, 113); 
+    width: 16%;  
+}
+.king{
+    height: 15%;
+    width: 2%;
+    background-color: grey;
+    border-radius: 30%;
+    text-align: center;
+    color: wheat;
+}
+.services{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(235, 235, 235);
+}
+.services>div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.element{
+    height: 30vh;
+    display: flex;
+}
+.element>div{
+    width: 50%;
+    height: 100%;
+}
+.fund{
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(26, 48, 42);
+    line-height: 45px;
+}
+.cool{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(2, 58, 2);
+    font-family: calibri;
+    padding-top: 20px;
+}
+.pattern{
+    height: 70vh;
+    width: 10vw;  
+    padding-left: 30px;
+}
+.young{
+    width: 30%;
+    height: 80%;  
+    margin-right: 9%;
+    border-radius: 45%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;   
+}
+.ben{
+    height: 93%;
+    background-color: rgb(107, 110, 113);
+    border: 10px solid white;
+    justify-content: center;
+    color: white;
+    font-family: calibri;
+    font-size: 13px;
+    padding-top: 3%;
+}
+.goat{
+    margin-top: 30px;
+}
+.door{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(26, 48, 42);
+    color: white;
+    margin-top: 35px;
+    border: none;
+}
+.door:hover{
+    color: wheat;
+}
+.gen{  
+    margin-top: 3%;
+    color: rgb(134, 129, 129);
+}
+.hen{
+    margin-top: 3%;
+    color: rgb(134, 129, 129);
+}
+.bull{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 40px;
+    background-color: rgb(107, 110, 113);
+    border: none;
+}
+.water{
+    font-family: calibri;
+    color: rgb(2, 58, 2);
+}
+.gen>div{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(107, 110, 113);
+    color: white;
+    border-radius: 3px; 
+}
+.nokia{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: rgb(2, 58, 2);
+    border-radius: 15px;
+    border: 5px solid rgb(107, 110, 113);
+}
+.vivo{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: rgb(2, 58, 2);
+    border-radius: 10px;
+    border: 5px solid rgb(107, 110, 113);
+}
+.hong{
+    height: 25px;
+    width: 25px;
+    border: 5px solid white;
+    color:black;
+    border-radius: 5px;
+    background-color:  rgb(107, 110, 113);
+}
+.page{
+    width: 100vw; 
+    flex-direction: column;
+}
+.page>div{
+    display: flex;
+    width: 100%;
+}
+.dens{
+    background-color: rgb(107, 110, 113);
+    padding: 50px;
+    height: 70vh;
+    justify-content: center;
+}
+.dens>div{
+    width: 30%;
+}
+.conk{
+    color: white;
+    font-family: calibri;
+    right: 5%;
+}
+.regular{
+    top: 10px;
+}
+.bonk{
+    background-image: url(../img/img7-removebg-preview.png);
+    border-radius: 50px;
+    background-size: 100% 100%;
+    height: 65vh;
+}
+.ponk{
+    color: white;
+    font-family: calibri;
+    font-weight: bolder;
+    width: 32%;
+    left: 5%; 
+}
+.end{
+    width: 90%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.hour{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(26, 48, 42); 
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+.fin{
+    height: 35%;
+}
+.rens{
+    background-color: whitesmoke;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+}
+.rens>div{
+    width: 100%;
+}
+.yoga{
+    height: 40%;
+    text-align: center;
+    top: 10%;
+}
+.content{
+    color: rgb(2, 58, 2);
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.balloon{
+    flex-direction: row;
+    height: 60%;
+    display: flex;
+    padding-top: 40px;
+    bottom: 4%;
+}
+.balloon>div{
+    height: 70%;
+    width: 18%;
+    border-radius: 7px;
+    margin-right: 10%;
+    left: 12%;
+}
+.opinion{
+    background-color: white;
+    color: grey;
+    text-align: center;
+    font-family: calibri;
+    padding: 10px;
+}
+
+.togo{
+    color: rgb(2, 58, 2);
+}
+.bee{
+    background-color: rgb(107, 110, 113);
+    color: white;
+}
+.donkey{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+    left: 35%;
+    bottom: 30%;
+    border: 10px solid grey;
+}
+.donkey.noom{
+    border: 10px solid rgb(2, 58, 2);
+}
+.wilson{
+    bottom: 20%;
+}
+.hoodie{
+    width: 100vw;
+    flex-direction: column;
+}
+.hoodie>div{
+    display: flex;
+    width: 100%;
+}
+.heed{
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.reed{
+    height: 25%;
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    top: 15px;
+}
+.grep{
+    color:  rgb(26, 48, 42);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Bahnschrift ;
+    line-height: 32px;
+    transform: scale(130%,130%);
+    left: 11%;
+}
+.reed>div{
+    width: 50%;
+    flex-direction: column;
+}
+.green{
+    width: 85%;
+    height: 75%;
+    left: 6.7%;
+    top: 11%;
+    display: flex;
+    flex-direction: row;
+}
+.green>div{
+    width: 50%;
+    height: 70%;
+}
+.tournament{
+    background-image:url(../img/image6.jfif);
+    background-size: 100% 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.tour{
+    background-color:  rgb(26, 48, 42);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 5%;
+}
+.look{
+    height: 20%;
+    width: 25%;
+    background-image: url(../img/img_9-removebg-preview.png);
+    background-size: 110px 40px;
+    bottom: 15px;
+}
+.rook{
+    height: 35%;
+    width: 14%;
+    background-image: url(../img/img10.jfif);
+    background-size: 63px 60px;
+    border-radius: 50px;
+    top: 25px;
+}
+.umar{
+    left: 17%;
+    font-family: calibri;
+    bottom: 20px;
+}
+.beed{
+    background-color: rgb(107, 110, 113);
+    width: 100vw;
+    height: 50vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.range{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(26, 48, 42); 
+    border: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 19px;
+}
+.counter{
+    bottom: 11px;
+    font-family: calibri;
+    transform: scale(200%, 200%);
+    font-size: 20px;
+    line-height: 40px;
+}
+.upper{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    box-shadow: 0.2px 0.2px 2px 4px  white;
+    border-radius: 50%;
+    left: 70%;
+    bottom: 20px;
+}
